@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@font-face{
+    font-family: Android;
+    src: url(fontes/idroid.otf);
+    }
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+body {
+    background-color: aquamarine;
+}
+header {
+    background-image: linear-gradient(to bottom, #2fa866, #063d1e);
+    min-height: 200px;
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+}
+header h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header h2{
+    font-family:'Roboto', sans-serif;
+    padding-top: 30px;
+    text-shadow: 2px 2px 2px black;
+}
+nav {
+    padding-top: 50px;
+}
+nav a {
+    padding-left: 55px;
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+main {
+    background-color: white;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    box-shadow: 0px 3px 25px black;
+    padding: 20px;
+}
+main p {
+    font-family: 'Roboto', sans-serif;
+}
+main h1, main h2{
+    font-family: Android;
+    color: #0b6833;
+}
+main p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+main h2 {
+    padding-left: 5px;
+    background-image: linear-gradient(to right, #2fa866, transparent) ;
+}
+main img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+main div#video {
+    background-color: #063d1e;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+main div#video iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+main section h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    background-color: #2fa866;
+    padding: 5px 10px;
+
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+main section div ul {
+    columns: 2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main section {
+    background-color: rgba(127, 255, 212, 0.534);
+    border-radius: 15px;
+}
+main section div {
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+footer {
+    background-color: #063d1e;
+    width: 100%;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 45px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer a {
+    color: white;
+}
